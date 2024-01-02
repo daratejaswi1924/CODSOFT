@@ -1,0 +1,124 @@
+@font-face {
+    src: url(fonts/OneDirection.ttf) format("truetype");
+    font-family: nos;
+}
+
+.paragraph {
+    text-align: center;
+    font-size: 30px;
+    font-family: sans-serif;
+    color: azure;
+}
+
+.paragraph2 {
+    text-align: center;
+    font-size: 30px;
+    font-family: sans-serif;
+    color: rgb(28, 167, 167);
+}
+
+.menu-bar {
+    text-align: center;
+    background-color: #000000;
+}
+
+.menu-bar ul {
+    display: inline-flex;
+    color: floralwhite;
+}
+
+.menu-bar ul li {
+    font-family: Impact;
+    width: 120px;
+    margin: 15px;
+    padding: 15px;
+}
+
+.menu-bar ul li:hover {
+    background: floralwhite;
+    color: #000000;
+    border-radius: 3px;
+}
+
+.paragraph5 {
+    font-size: 20px;
+    font-family: courier;
+    margin: 30px;
+    color: gold;
+}
+
+header {
+    color: #fff;
+    text-align: center;
+    padding: 50px;
+}
+
+section {
+    padding: 50px;
+}
+
+#cta {
+    color: #fff;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 10px;
+    background-color: #fff;
+    color: #3498db;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.lets-go-bth {
+    color: floralwhite;
+    background: rgb(red, green, blue);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 1000;
+    letter-spacing: 5px;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin-left: -15px;
+}
+
+.lets-go-btn:hover {
+    background: rgb(54, 1, 1);
+}
+
+.icons {
+    display: flex;
+    font-size: 3rem;
+    margin-top: 0;
+    line-height: 0;
+    align-items: flex-end;
+    display: flex;
+    gap: 1px;
+    justify-content: center;
+}
+
+.icons a {
+    margin: 0 10px;
+}
+
+.icons :hover {
+    transform: scale(1.5);
+    background-color: white;
+}
+
+.footer {
+    background-color: rgba(255, 255, 255, 0.7);
+    color: #333;
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.p1 {
+    color: blue;
+    font-size: larger;
+    padding-bottom: 5px;
+}
